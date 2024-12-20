@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Honk&family=Kalnia:wght@100..700&display=swap');
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#ced6e0;
+    background-image: url(992883.png);
+    
+
+}
+
+
+.calculator
+{
+    background-color: hsl(0, 0%, 11%);
+    
+    border-radius: 50px;
+    max-width: 600px;
+    overflow: hidden;
+    font-family: Kalnia,serif;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+
+#keys
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /*fr stands for fractional ratio*/
+    gap: 10px;
+    padding: 25px;
+
+}
+
+#display
+{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: right;
+    border-radius: 100px;
+    border: none;
+    background-color:#1c1c1c;
+    box-shadow: -5px -5px 5px black inset;
+    color: white;
+    
+}
+
+button
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   border: none;
+   background-color: #1a1a1a;
+   color: #d4d4d5;
+   font-size: 3rem; 
+   cursor: pointer;
+   box-shadow: 0.5px -1px 1px hsla(60, 14%, 92%, 0.351), 5px 2px 2px hsl(0, 0%, 5%) inset;
+}
+
+#plus
+{
+    color: #f2b528;
+}
+
+#minus{
+    color: #f2b528;
+}
+
+#divide
+{
+    color: #f2b528;
+}
+
+#multiply
+{
+    color: #f2b528;
+}
+
+#clear
+{
+    color: #f2b528;
+}
+
+#equal
+{
+   background-color: #ffac08;
+   color: #1c1c1c;
+}
+
+#decimal
+{
+    color: #f2b528;
+}
